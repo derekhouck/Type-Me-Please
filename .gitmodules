@@ -1,0 +1,3 @@
+[submodule "typing-words"]
+	path = typing-words
+	url = git@github.com:derekhouck/typing-words.git
