@@ -3,6 +3,22 @@ layout: default
 ---
 
 <div class="home">
+	<section class="testimonials">
+		<blockquote>
+			"I got a lot of valuable information from it and it was nice meeting everyone as well."
+			<small>
+				Mae Ruling<br />
+				<em>MisAdventures of a Hollywood Housewife</em>
+			</small>
+		</blockquote>
+		<blockquote>
+			"Incredibly helpful."
+			<small>
+				Sara Maraffino<br />
+				<em>The Mentalist</em>
+			</small>
+		</blockquote>
+	</section>
 
 	{% for post in site.posts limit:1 %}
 		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>

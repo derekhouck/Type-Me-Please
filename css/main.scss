@@ -14,6 +14,7 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fff;
 $brand-color:      #C1272D;
+$brand-color-dark: darken($brand-color, 15%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -36,3 +37,32 @@ $on-laptop:        800px;
 
 // Import partials from the `minima` theme.
 @import "minima";
+
+// Testimonials
+.testimonials {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	blockquote {
+		border-left: 0;
+		color: $brand-color-dark;
+		flex: 0 1 45%;
+		font-style: normal;
+		padding: 0;
+		text-align: center;
+	}
+	em {
+		color: $grey-color;
+		font-style: normal;
+	}
+	small {
+		color: $grey-color-dark;
+		display: block;
+		font-size: 0.778em;
+	}
+}
+@include media-query($on-palm) {
+	.testimonials {
+		display: block;
+	}
+}
