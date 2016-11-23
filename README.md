@@ -23,11 +23,6 @@ This README would normally document whatever steps are necessary to get your app
 * Code review
 * Other guidelines
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
-
-### Typing Words ###
+### Submodules ###
 Typing words is installed as a submodule. If installing on a new computer, grab using the below code:
 `git submodule update --init`
