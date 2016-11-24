@@ -25,8 +25,3 @@ github_username:  derekhouck
 # Build settings
 markdown: kramdown
 theme: minima
-
-# Glynn settings
-ftp_host:       'talbot.dreamhost.com'
-ftp_dir:        '/typemeplease.com'
-ftp_passive:    false
